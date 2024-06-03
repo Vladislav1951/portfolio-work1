@@ -1,0 +1,537 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(content/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 769px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+letter-spacing: 5.71px;
+text-align: center;
+color: white;
+}
+
+.h1-under{
+    position: relative;
+    left: 92px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.head-logo{
+    background-image: url(content/projeco-logo.png);
+    height: 23px;
+    width: 101.62px;
+    position: relative;
+    top: 30px;
+}
+
+.head-under{
+    color: rgb(255, 255, 255);
+font-family: "Open Sans", sans-serif;
+font-size: 11px;
+font-weight: 500;
+letter-spacing: 2.7px;
+position: relative;
+bottom: 71px;
+}
+
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.navbar{
+    border-bottom:  1px solid rgb(230, 230, 230);
+    height: 65px;
+}
+
+.navbar-ins{
+    position: relative;
+    top: 24.5px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24.5px;
+}
+
+.navbar-logo{
+    width: 79.71px;
+    height: 16.43px;
+    background-image: url(content/projeco-logo-black.png);
+}
+
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 410.5px;
+}
+
+.nav li {
+    list-style: none;
+    color: rgb(72, 85, 91);
+font-family: "Open Sans", sans-serif;
+font-size: 12px;
+font-weight: 600;
+line-height: -1px;
+letter-spacing: 1.09px;
+text-align: left;
+}
+
+.nav li:hover{
+    color: rgb(0, 164, 229);
+    cursor: pointer;
+}
+
+.about{
+    position: relative;
+    padding-top: 57px;
+}
+
+.about-first{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-first h3{
+    color: rgb(72, 85, 91);
+font-family: "Open Sans", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: -1px;
+letter-spacing: 2.31px;
+text-align: center;
+margin-bottom: 10px;
+}
+
+.poloska{
+    width: 50px;
+height: 2px;
+    background-color:rgb(0, 164, 229);
+}
+
+.about-sec{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-txt h3{
+    font-family: "Open Sans", sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: -1px;
+text-align: left;
+margin-bottom: 30px;
+}
+
+.about-txt{
+    position: relative;
+    padding-top: 55px;
+}
+
+.about-und-txt{
+    color: rgb(72, 85, 91);
+font-family: "Open Sans", sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0.19px;
+text-align: left;
+}
+
+.about-ph{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    position: relative;
+    top: 60px;
+}
+
+.abp{
+    color: rgb(255, 255, 255);
+font-family: "Open Sans", sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0.19px;
+text-align: left;
+width: 140px;
+height: 224px;
+}
+
+.abp p{
+    margin: 15px;
+}
+
+.about-ph1{
+    background-image: url(content/Bitmap.png);
+    background-position: right;
+    position: relative;
+    margin-left: 78px;
+}
+
+.about-ph2{
+    background-image: url(content/Bitmap2.png);
+    background-position: center;
+}
+
+.about-ph3{
+    background-image: url(content/Bitmap3.png);
+    background-position: center;
+}
+
+.services{
+    padding-top: 90px;
+    padding-bottom: 115px;
+}
+
+.ser-first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ser-zag{
+    color: rgb(72, 85, 91);
+font-family: "Open Sans", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: -1px;
+letter-spacing: 2.31px;
+text-align: left;
+position: relative;
+margin-bottom: 10px;
+margin-right: 154px;
+white-space: nowrap;
+}
+
+.h3p{
+    position: relative;
+    top: 9px;
+}
+
+.ser-txt{
+    display: flex;
+    flex-direction: row;
+}
+
+.ser-txt p{
+    color: rgb(72, 85, 91);
+font-family: "Open Sans", sans-serif;
+font-size: 11px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0.2px;
+text-align: left;
+position: relative;
+top: 0.3px;
+margin-left: 28px;
+right: 28px;
+white-space: nowrap;
+}
+
+.inputich{
+    background-color: rgb(0, 164, 229);
+    border: none;
+    color: rgb(255, 255, 255);
+font-family: "Open Sans", sans-serif;
+font-size: 13px;
+font-weight: 600;
+line-height: -1px;
+letter-spacing: 0.7px;
+text-align: center;
+padding-top: 2px;
+height: 40px;
+width: 150px;
+}
+
+.ser-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 76px;
+    gap: 31px;
+}
+
+.blox h3{
+    color: rgb(72, 85, 91);
+font-family: "Open Sans", sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.43px;
+text-align: left;
+position: relative;
+margin-top: 25px;
+margin-bottom: 13px;
+}
+
+.ssb1img{
+    background-image: url(content/Bitmap11.png);
+width: 65.63px;
+height: 75px;
+}
+
+.ssb2img{
+    background-image: url(content/Bitmap22.png);
+    width: 67.74px;
+    height: 75px;
+}
+
+.ssb3img{
+    background-image: url(content/Bitmap33.png);
+width: 70.59px;
+height: 75px;
+}
+
+.blox {
+    border: 1px solid rgb(230, 230, 230);
+    background: rgb(255, 255, 255);
+    padding-top: 37px;
+    padding-left: 23px;
+    padding-bottom: 39px;
+    padding-right: 19px;
+}
+
+.blox p{
+    color: rgb(72, 85, 91);
+font-family: "Open Sans", sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0.19px;
+text-align: left;
+}
+
+.getintouch{
+    background-image: url(content/bg2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 499px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gitoch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 50px;
+}
+
+.getintouch h5{
+    color: rgb(72, 85, 91);
+font-family: "Open Sans", sans-serif;
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.15px;
+text-align: center;
+position: relative;
+margin-bottom: 35px;
+}
+
+.email{
+    box-sizing: border-box;
+border: 1px solid rgb(151, 151, 151);
+background: rgb(255, 255, 255);
+padding: 10px;
+padding-left: 16px;
+padding-right: 98px;
+color: rgb(72, 85, 91);
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: -1px;
+letter-spacing: 0.07px;
+text-align: left;
+}
+
+.signup{
+    background: rgb(23, 24, 25);
+    position: relative;
+    bottom: 1px;
+}
+
+.sinnup h5{
+    color: rgb(255, 255, 255);
+font-family: "Open Sans", sans-serif;
+font-size: 22px;
+font-weight: 700;
+line-height: -1px;
+letter-spacing: 0.85px;
+text-align: center;
+position: relative;
+top: 3px;
+}
+
+.sinnup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 35px;
+}
+
+.inpoot{
+    position: relative;
+    margin-right: 40px;
+    padding-bottom: 30px;
+}
+
+.boutcomp{
+    background: rgb(20, 26, 32);
+    padding-top: 42px;
+    padding-bottom: 50px;
+    position: relative;
+    bottom: 2px;
+}
+
+.boutcompcont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img {
+    background-image: url(content/projeco-logo.png);
+    width: 101.62px;
+    height: 23px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+.bcb1 p{
+    color: rgb(255, 255, 255);
+font-family: "Open Sans", sans-serif;
+font-size: 11px;
+font-weight: 300;
+line-height: 19px;
+letter-spacing: ;
+text-align: left;
+}
+
+.bcb2 p{
+    color: rgb(255, 255, 255);
+font-family: "Open Sans", sans-serif;
+font-size: 11px;
+font-weight: 300;
+line-height: -1px;
+letter-spacing: 0.85px;
+text-align: left;
+position: relative;
+margin-bottom: 9px;
+}
+
+.bcb2 li{
+    list-style: none;
+    color: rgb(255, 255, 255);
+font-family: "Open Sans", sans-serif;
+font-size: 11px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0.85px;
+text-align: left;
+}
+
+.bcb3{
+    position: relative;
+    top: 26px;
+}
+
+.bcb4{
+    position: relative;
+    top: 26px;
+}
+
+.bcb5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bcb6{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.bcb3 li{
+    list-style: none;
+    color: rgb(255, 255, 255);
+font-family: "Open Sans", sans-serif;
+font-size: 11px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0.85px;
+text-align: left;
+}
+
+.bcb4 li{
+    list-style: none;
+    color: rgb(255, 255, 255);
+font-family: "Open Sans", sans-serif;
+font-size: 11px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0.85px;
+text-align: left;
+}
+
+.P{
+    color: rgb(255, 255, 255);
+font-family: "Open Sans", sans-serif;
+font-size: 11px;
+font-weight: 300;
+line-height: -1px;
+letter-spacing: 0.85px;
+text-align: left;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(23, 24, 25);
+    height: 60px;
+}
+
+.footer p{
+    color: rgb(255, 255, 255);
+font-family: "Open Sans", sans-serif;
+font-size: 11px;
+font-weight: 300;
+line-height: -1px;
+letter-spacing: 0.85px;
+text-align: left;
+}
+
+footer{
+    background: rgb(23, 24, 25);
+}
+
+.about-txt span{
+    color: rgb(0, 164, 229);
+}
