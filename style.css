@@ -8,7 +8,6 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100%;
     height: 769px;
     display: flex;
     flex-direction: column;
@@ -55,7 +54,6 @@ bottom: 71px;
 
 .container{
     max-width: 940px;
-    width: 100%;
     margin: 0 auto;
 }
 
@@ -535,4 +533,10 @@ footer{
 
 .about-txt span{
     color: rgb(0, 164, 229);
+}
+
+@media screen and (max-width: 940px){
+    header{
+        width: 100%;
+    }
 }
